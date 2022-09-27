@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Space Site</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body id="backG">
+	<div class="logo">
+		<h2>Space</h2>
+		<img id="logoimg" src="spacelogo.png" alt="Our Space Logo">	
+	</div>
+		
+	<div class="content">
+	  <h1>Join The <span class="cta">Exploration</span></h1>
+    </div>   
+    
+    <div class="btns">
+	  <button class="btn" onClick="changeB()">Apply!</button>
+      <button class="btn" onClick="changeC()">Space!</button>
+      <button class="btn" onClick="changeA()">Default</button>
+	</div>
+    <script language="Javascript" type="text/javascript">
+        
+        function changeB(){
+            
+            document.getElementById("backG").style.backgroundImage = "url(space.webp)";
+        }
+    
+        function changeC(){
+            
+            document.getElementById("backG").style.backgroundImage = "url(space2.webp)";
+        }
+        
+        function changeA(){
+            
+            document.getElementById("backG").style.backgroundImage = "url(space3.webp)";
+        }
+    
+    
+    </script>
+
+</body>
+</html>
